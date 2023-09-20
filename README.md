@@ -26,14 +26,20 @@ https://docs.google.com/forms/d/e/1FAIpQLSfzkq5HNXmg05A0q5UJY0tIeUaEWA-Z6DDWzfqJ
 we can see that in the URL, there are snippets that say something along the lines of "entry.2005620554=Name", the first part is the field id, and the second part is what question it belongs to, so we want to extract all of these ids.
 
 Extract the following:
+
+"1FAIpQLSfzkq5HNXmg05A0q5UJY0tIeUaEWA-Z6DDWzfqJQJ2tvlSoIA" - form id
+
 "entry.2005620554" - field one id (name)
+
 "entry.1045781291" - field two id (email)
+
 "entry.1065046570" = field three id (address)
+
 etc. 
 
 5. you can now create a basic HTMl form with the extracted info
 
-
+<code>
       <form method="post" class="formm"id="form" action="https://docs.google.com/forms/u/0/d/e/[ENTER form id here]/formResponse">
     <label for="inp1">[any label you want]</label>
     <input class = "b" type="text" name="[field one id]" id="inp1"><br>
@@ -43,6 +49,6 @@ etc.
     <input class="b" type="text" name="[field three id]" id="inp3"><br>
     <input type="submit" value="Submit">
 </form>
-
+</code>
 You can now style the form however you want.
 for more fields, simply copy&paste the input field for every new field.
