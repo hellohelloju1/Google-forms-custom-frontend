@@ -39,7 +39,7 @@ etc.
 
 5. you can now create a basic HTMl form with the extracted info
 
-<code>
+```text
       <form method="post" class="formm"id="form" action="https://docs.google.com/forms/u/0/d/e/[ENTER form id here]/formResponse">
     <label for="inp1">[any label you want]</label>
     <input class = "b" type="text" name="[field one id]" id="inp1"><br>
@@ -49,6 +49,6 @@ etc.
     <input class="b" type="text" name="[field three id]" id="inp3"><br>
     <input type="submit" value="Submit">
 </form>
-</code>
+```
 You can now style the form however you want.
 for more fields, simply copy&paste the input field for every new field.
