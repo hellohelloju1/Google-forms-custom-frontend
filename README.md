@@ -13,11 +13,11 @@ visit https://helptestingreplit.hellohelloju1.repl.co/ for a working demo
 
 2. navigate to the three dots on the top right and click "get prefilled link"
 
-<img src="/2.png" alt="image" style="height: 200px;"/>
+<img src="/2.png" alt="image" style="height:400px;"/>
 
 3. Fill out the form, fill each field with the field name, then click get name
 
-<img src="/3.png" alt="image" style="height: 200px;"/>
+<img src="/3.png" alt="image" style="height: 300px;"/>
 
 4. After you get the link, it should look something like
 
@@ -43,9 +43,9 @@ etc.
       <form method="post" class="formm"id="form" action="https://docs.google.com/forms/u/0/d/e/[ENTER form id here]/formResponse">
     <label for="inp1">[any label you want]</label>
     <input class = "b" type="text" name="[field one id]" id="inp1"><br>
-      <label for="inp1">Comment:</label>
+      <label for="inp1">[any label you want]</label>
     <input class="b" type="text" name="[field two id]" id="inp2"><br>
-    <label for="inp1">Website:</label>
+    <label for="inp1">[any label you want]</label>
     <input class="b" type="text" name="[field three id]" id="inp3"><br>
     <input type="submit" value="Submit">
 </form>
